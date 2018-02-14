@@ -1,0 +1,67 @@
+@media (max-width:1280px){
+    #cuerpo > *{
+        height:50vh;
+    }
+
+    .botonera{
+         padding-top:33vh; 
+    }
+}
+
+@media (max-width: 720px){
+    .nav{
+        position:relative;
+        height: 100px;
+    }
+    .nav ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height:100px;
+        right:0;
+        padding-right:100px;
+    }
+    .nav ul li{
+        width:90px;
+    }
+
+    .botones .botonera div{
+        width:150px;
+    }
+
+    body p{
+        font-size: 14px;
+    }
+
+    body h1{
+        font-size: 18px;
+        margin:10px;
+    }
+
+    .fotos > *{
+        width:100%;
+    }
+
+}
+
+@media (max-width: 460px){
+    header{
+        flex-direction: column;
+    }
+    .nav{
+        width: 185px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .nav ul li{
+        align-items: center;
+    }
+
+    
+}
+
+@media (max-height: 640px){
+    .botonera{
+        padding-top: 20vh;
+    }
+}
