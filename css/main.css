@@ -259,6 +259,7 @@ p+p{
 .detalle ul li{
     /* height:16px;
     bottom:0; */
+    list-style:none;
 }
 
 .metros{
